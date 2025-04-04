@@ -4,7 +4,7 @@
 #include <climits>
 #include <cuda_runtime.h>
 #include <fstream>
-#include <json/json.h> // Ensure you include the correct header for JsonCpp
+#include "json.hpp" // Ensure you include the correct header for JsonCpp
 #include <cstdlib>    // for rand()
 #include <ctime>      // for time()
 
